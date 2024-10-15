@@ -41,5 +41,13 @@ namespace DemoEmployeeManagementSolution
 
         private async Task<ApplicationUser> FindUserByEmail(string email) =>
            await appDbContext.ApplicationUsers.FirstOrDefaultAsync(_=>_.Email!.ToLower()!.Equals(email!.ToLower()));
+
+
+           private async Task<T> AddToDatabase<T>(T model)
+           {
+              var result = appDbContext.Add(model);
+              await appDbContext.SaveChangesAsync();
+              return (T)result.Entity;
+           }
     }
 }
