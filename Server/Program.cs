@@ -1,3 +1,6 @@
+using DemoEmployeeManagementSolution;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -7,6 +10,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+//Starting
+builder.Services.AddDbContext<AppDbContext>(options => {
+  options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new InvalidOperationException("Sorry your connection string is not found"));
+});
+
+builder.Services.Configure<JwtSection>(builder.Configuration.GetSection("JwtSection"));
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

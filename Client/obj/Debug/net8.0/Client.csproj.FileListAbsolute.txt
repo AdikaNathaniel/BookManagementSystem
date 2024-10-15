@@ -1,0 +1,8 @@
+C:\Users\ACER\source\repos\DemoEmployeeManagementSolution\Client\obj\Debug\net8.0\Client.csproj.AssemblyReference.cache
+C:\Users\ACER\source\repos\DemoEmployeeManagementSolution\Client\obj\Debug\net8.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ACER\source\repos\DemoEmployeeManagementSolution\Client\obj\Debug\net8.0\Client.AssemblyInfoInputs.cache
+C:\Users\ACER\source\repos\DemoEmployeeManagementSolution\Client\obj\Debug\net8.0\Client.AssemblyInfo.cs
+C:\Users\ACER\source\repos\DemoEmployeeManagementSolution\Client\obj\Debug\net8.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\ACER\source\repos\DemoEmployeeManagementSolution\Client\obj\Debug\net8.0\Client.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ACER\source\repos\DemoEmployeeManagementSolution\Client\obj\Debug\net8.0\Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\ACER\source\repos\DemoEmployeeManagementSolution\Client\obj\Debug\net8.0\Client.sourcelink.json
