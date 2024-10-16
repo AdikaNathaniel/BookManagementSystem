@@ -16,6 +16,7 @@ builder.Services.AddDbContext<AppDbContext>(options => {
 });
 
 builder.Services.Configure<JwtSection>(builder.Configuration.GetSection("JwtSection"));
+builder.Services.AddScoped<IUserAccount,UserAccountRepository>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
